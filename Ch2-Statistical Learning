@@ -1,0 +1,24 @@
+# 📘 Chapter 2: Linear Regression
+
+## 1. Motivation
+- Predict numerical outcome using a linear combination of features
+- Easy to interpret coefficients
+
+## 2. Model
+We assume:
+
+\[
+Y = \beta_0 + \beta_1 X + \epsilon
+\]
+
+where \( \epsilon \sim N(0, \sigma^2) \)
+
+## 3. Estimation
+Use OLS to minimize the RSS:
+
+\[
+RSS = \sum_{i=1}^n (y_i - \hat{y}_i)^2
+\]
+
+## 4. Key Takeaways
+- Linearity doesn't mean X is linear — can include transformations
