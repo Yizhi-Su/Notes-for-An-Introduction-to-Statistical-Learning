@@ -1,24 +1,16 @@
 # 📘 Chapter 2: Linear Regression
 
-## 1. Motivation
-- Predict numerical outcome using a linear combination of features
-- Easy to interpret coefficients
-
-## 2. Model
-We assume:
-
+## General form
 \[
-Y = \beta_0 + \beta_1 X + \epsilon
+Y = f(X) + \epsilon
 \]
+We estimate f for: (1) prediction (2) inference
 
-where \( \epsilon \sim N(0, \sigma^2) \)
+## Parametric methods and non-premetric methods
+Paremetric methods 
+- make an assumption about the functional form
+- fit/train data to get parameters
+Non-parametric methods
+- no explicit assumption but require large number of observations
 
-## 3. Estimation
-Use OLS to minimize the RSS:
 
-\[
-RSS = \sum_{i=1}^n (y_i - \hat{y}_i)^2
-\]
-
-## 4. Key Takeaways
-- Linearity doesn't mean X is linear — can include transformations
